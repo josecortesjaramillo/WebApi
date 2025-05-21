@@ -9,6 +9,5 @@ namespace ShoppingAPI_Jueves.Domain.interfaces
         Task<Country> GetCountryById(Guid id);
         Task<Country> EditCountryAsync(Country country);
         Task<Country> DeletCountryById(Guid id);
-
     }
 }
