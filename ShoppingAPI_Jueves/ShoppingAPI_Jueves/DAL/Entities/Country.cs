@@ -10,6 +10,8 @@ namespace ShoppingAPI_Jueves.DAL.Entities
         public String Name { get; set; }
 
 
+        [Display(Name = "Estados/Departamentos")]
+        public ICollection<State>? States { get; set; }
 
     }
 }
